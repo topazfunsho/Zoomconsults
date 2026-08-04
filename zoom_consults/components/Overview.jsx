@@ -41,15 +41,11 @@ export default function Overview() {
           </span>
 
           <h2 className="mt-4 text-3xl font-bold leading-tight text-slate-900 md:text-4xl lg:text-5xl">
-            Delivering Innovative Solutions Across Multiple Industries
+            Trusted Business Brand. Proven Results.
           </h2>
 
           <p className="mt-8 text-base leading-8 text-gray-600 md:text-lg">
-            Zoom Consults is a diversified consulting organization dedicated
-            to transforming ideas into impactful solutions. Through innovation,
-            professionalism, and excellence, we provide services spanning
-            interior design, glass construction, professional training,
-            certification, and strategic partnerships.
+            Zoom Consults is a dynamic and diversified umbrella brand compromising a group of companies dedicated to excellence, innovation, and sustainable growth across multiple sectors.
           </p>
 
           <p className="mt-6 text-base leading-8 text-gray-600 md:text-lg">

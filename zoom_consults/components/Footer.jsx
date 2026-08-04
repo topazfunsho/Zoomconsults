@@ -21,11 +21,12 @@ const quickLinks = [
 const socialLinks = [
   {
     icon: FaFacebookF,
-    url: "https://facebook.com",
+    url: "https://www.facebook.com/profile.php?id=100064301074434",
   },
   {
     icon: FaInstagram,
-    url: "https://instagram.com",
+    url: "https://www.instagram.com/zoomglass_/",
+    name: "Zoom Glass",
   },
   {
     icon: FaLinkedinIn,
@@ -67,6 +68,10 @@ export default function Footer() {
                   className="flex h-11 w-11 items-center justify-center rounded-full bg-slate-800 transition-all duration-300 hover:-translate-y-1 hover:bg-red-600 hover:text-white"
                 >
                   <Icon />
+                  {/* <p className="text-xs flex block">
+                    {social.name}
+                  </p> */}
+
                 </a>
               );
             })}
@@ -107,7 +112,7 @@ export default function Footer() {
             <div className="flex items-start gap-4">
               <FaLocationDot className="mt-1 text-lg text-red-600" />
               <p className="leading-6">
-                Lagos, Nigeria
+                85 Allen Avenue, Ikeja, Lagos, Nigeria
               </p>
             </div>
 
@@ -117,7 +122,8 @@ export default function Footer() {
                 href="tel:+2348000000000"
                 className="transition hover:text-red-500"
               >
-                +234 XXX XXX XXXX
+                +234 908 030 0064,
+                +234 908 030 0065
               </a>
             </div>
 
@@ -127,7 +133,7 @@ export default function Footer() {
                 href="mailto:info@zoomconsults.com"
                 className="transition hover:text-red-500"
               >
-                info@zoomconsults.com
+                zoomincorporatedng@gmail.com
               </a>
             </div>
           </div>

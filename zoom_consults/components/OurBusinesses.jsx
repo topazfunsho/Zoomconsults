@@ -6,7 +6,7 @@ const businesses = [
   {
     title: "Zoom Interior Consult & Academy",
     description:
-      "Professional interior design, consultancy, training, and certification for individuals and organizations.",
+      "Focuses on interior design consulting, training, and professional certification.",
     image:
       "https://res.cloudinary.com/dd6dnskfg/image/upload/v1785497020/glass_front_fvn62r.jpg",
     link: "/zica",
@@ -14,7 +14,7 @@ const businesses = [
   {
     title: "Zoom Glass",
     description:
-      "Modern architectural glass solutions for residential, commercial, and industrial projects.",
+      "Specializing in glass and aluminum-related construction solutions.",
     image:
       "https://res.cloudinary.com/dd6dnskfg/image/upload/v1785498970/Discussion_Photos_-_Download_Free_High-Quality_Pictures___Freepik_uxuuh8.jpg",
     link: "/zoom-glass",
@@ -22,7 +22,7 @@ const businesses = [
   {
     title: "Zoom Partners Hub",
     description:
-      "Connecting professionals and businesses through strategic partnerships, consulting, and growth opportunities.",
+      "Connects businesses with trusted partners for sustainable growth and success.",
     image:
       "https://res.cloudinary.com/dd6dnskfg/image/upload/v1785498873/Download_premium_image_of_Business_partners_shaking_hands_in_agreement_by_Jira_about_hands_handshake_people_man_and_holding_hands_413225_cgjz6x.jpg",
     link: "/zoom-partners-hub",
