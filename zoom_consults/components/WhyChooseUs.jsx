@@ -6,6 +6,7 @@ import {
   FaHandshake,
   FaShieldAlt,
   FaChartLine,
+  FaPaperPlane,
 } from "react-icons/fa";
 
 const features = [
@@ -23,21 +24,21 @@ const features = [
     },
   {
     icon: <FaAward size={28} />,
-    title: "Proven Excellence",
+    title: "Quality",
     description:
-      "We consistently deliver high-quality solutions that meet international standards.",
+      "At Zoom Consult, quality is at the core of everything we do, from strategic insights to project execution, we uphold the highest standards to deliver lasting value.",
   },
   {
-    icon: <FaLightbulb size={28} />,
-    title: "Innovative Solutions",
+    icon: <FaPaperPlane size={28} />,
+    title: "Delivery",
     description:
-      "Our team combines creativity and technical expertise to solve complex challenges.",
+      "Zoom Consult is committed to timely, efficient, and high-quality delivery, ensuring every project meets client expectations with precision and excellence.",
   },
   {
     icon: <FaHandshake size={28} />,
     title: "Trusted Partnerships",
     description:
-      "We build lasting relationships founded on integrity, transparency, and reliability.",
+      "Zoom Partners is committed to building enduring client relationships through integrity, transparency, trust, and dependable service.",
   },
   {
     icon: <FaChartLine size={28} />,

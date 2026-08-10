@@ -7,15 +7,16 @@ import {
   FaPhone,
   FaEnvelope,
   FaLocationDot,
+  FaClock,
 } from "react-icons/fa6";
 
 const quickLinks = [
   { name: "Home", path: "/" },
-  { name: "About", path: "/about" },
+  { name: "About Us", path: "/about" },
   { name: "Zoom Interior Consult & Academy", path: "/zica" },
   { name: "Zoom Glass", path: "/zoom-glass" },
   { name: "Zoom Partners Hub", path: "/zoom-partners-hub" },
-  { name: "Contact", path: "/contact" },
+  { name: "Contact Us", path: "/contact" },
 ];
 
 const socialLinks = [
@@ -32,10 +33,10 @@ const socialLinks = [
     icon: FaLinkedinIn,
     url: "https://linkedin.com",
   },
-  {
-    icon: FaXTwitter,
-    url: "https://x.com",
-  },
+  // {
+  //   icon: FaXTwitter,
+  //   url: "https://x.com",
+  // },
 ];
 
 export default function Footer() {
@@ -134,6 +135,16 @@ export default function Footer() {
                 className="transition hover:text-red-500"
               >
                 zoomincorporatedng@gmail.com
+              </a>
+            </div>
+
+            <div className="flex items-center gap-4">
+              <FaClock className="text-red-600" />
+              <a
+                href="mailto:info@zoomconsults.com"
+                className="transition hover:text-red-500"
+              >
+                Open from Monday - Friday, 8AM - 4PM
               </a>
             </div>
           </div>

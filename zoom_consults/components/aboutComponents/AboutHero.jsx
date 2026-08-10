@@ -23,7 +23,7 @@ export default function AboutHero() {
           About Zoom Consults
         </span>
 
-        <h1 className="mt-5 max-w-4xl text-5xl font-bold leading-tight text-white md:text-6xl lg:text-7xl">
+        <h1 className="capitalize mt-5 max-w-4xl text-5xl font-bold leading-tight text-white md:text-6xl lg:text-7xl">
           About US
         </h1>
 
