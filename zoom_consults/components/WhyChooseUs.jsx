@@ -9,6 +9,18 @@ import {
 } from "react-icons/fa";
 
 const features = [
+    {
+      icon: <FaUsers size={28} />,
+      title: "Experienced",
+      description:
+        "With years of proven expertise, Zoom Consult has guided clients across divers industries, delivering reliable solutions, professional insights, and measurable results that drive growth and success.",
+    },
+    {
+      icon: <FaShieldAlt size={28} />,
+      title: "Trust",
+      description:
+        "Zoom Consult is built on trust, consistently delivering transparent, dependable, and client-focused solutions that foster long-lasting relationships and confidence.",
+    },
   {
     icon: <FaAward size={28} />,
     title: "Proven Excellence",
@@ -22,22 +34,10 @@ const features = [
       "Our team combines creativity and technical expertise to solve complex challenges.",
   },
   {
-    icon: <FaUsers size={28} />,
-    title: "Experienced Team",
-    description:
-      "Dedicated professionals with extensive industry knowledge across multiple sectors.",
-  },
-  {
     icon: <FaHandshake size={28} />,
     title: "Trusted Partnerships",
     description:
       "We build lasting relationships founded on integrity, transparency, and reliability.",
-  },
-  {
-    icon: <FaShieldAlt size={28} />,
-    title: "Quality Assurance",
-    description:
-      "Every project is executed with precision, professionalism, and attention to detail.",
   },
   {
     icon: <FaChartLine size={28} />,

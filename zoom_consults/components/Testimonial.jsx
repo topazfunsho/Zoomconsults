@@ -11,7 +11,7 @@ const testimonials = [
     name: "Felixson",
     position: "Manager, The Integra App",
     image:
-      "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400",
+      "https://res.cloudinary.com/dd6dnskfg/image/upload/v1786356631/ChatGPT_Image_Oct_3_2025_09_09_57_AM_igphmp.png",
     review:
       "Getting funding was only part of the value we recieved from Zoom Partners Hub. Beyond the capital, their team connected us with the right strategy. In just 3 month, we scaled our product and multiplied our customer base. Their support truly accelerated our journey from idea to impact.",
   },
@@ -19,7 +19,7 @@ const testimonials = [
     name: "Adebayo Irene",
     position: "Business Owner",
     image:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400",
+      "https://res.cloudinary.com/dd6dnskfg/image/upload/v1786356629/professional_black_beautiful_lady_in_suit_dyozda.jpg",
     review:
       "From consultation to to installation, the process was seamless. Zoom Glass Construction is reliable and professional.",
   },
@@ -27,7 +27,7 @@ const testimonials = [
     name: "Allseven",
     position: "Real Estate Investment",
     image:
-      "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400",
+      "https://res.cloudinary.com/dd6dnskfg/image/upload/v1786356629/499812004_18373945630125843_5044778175956089984_n_kuele9.jpg",
     review:
       "Zoom Glass Construction has been a long-term partner that consistently delivers elegance and excellence. We are proud to be associated with them.",
   },
@@ -35,7 +35,7 @@ const testimonials = [
     name: "Kola James",
     position: "Entrepreneur",
     image:
-      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400",
+      "https://res.cloudinary.com/dd6dnskfg/image/upload/v1786356629/gm_creative_photography_Contactez-nous_au_ndwuay.jpg",
     review:
       "Their attention to detail and quality finish is unmatched. We now have a modern, stylish looking office that clients always compliment.",
   },
@@ -43,7 +43,7 @@ const testimonials = [
     name: "Cindy Chibueze",
     position: "Entrepreneur",
     image:
-      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400",
+      "https://res.cloudinary.com/dd6dnskfg/image/upload/v1786356629/6ff85aec-68e4-49c6-a966-81d7257d99a2_alu6hj.jpg",
     review:
       "The training at Zoom Interior Academy was practical and inspiring. The instructors were knowledgeable, and i gained the confidence and skills to start my own interior design projects.",
   },

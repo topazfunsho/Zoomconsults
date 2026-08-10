@@ -4,6 +4,7 @@ import Overview from '../components/Overview';
 import OurBusinesses from '../components/OurBusinesses';
 import WhyChooseUs from '../components/WhyChooseUs';
 import Testimonials from '../components/Testimonial';
+import Consultation from '../components/ConsultationForm';
 function Home() {
   return (
     <div>
@@ -12,6 +13,7 @@ function Home() {
         <OurBusinesses />
         <WhyChooseUs />
         <Testimonials />
+        <Consultation />
     </div>
   )
 }

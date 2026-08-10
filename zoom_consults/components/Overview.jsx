@@ -38,6 +38,7 @@ export default function Overview() {
         >
           <span className="text-sm font-semibold uppercase tracking-[5px] text-red-600">
             About Zoom Consults
+            <div className="h-1 bg-red-700 w-10 rounded-full mt-2"></div>
           </span>
 
           <h2 className="mt-4 text-3xl font-bold leading-tight text-slate-900 md:text-4xl lg:text-5xl">

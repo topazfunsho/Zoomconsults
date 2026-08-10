@@ -8,7 +8,7 @@ const businesses = [
     description:
       "Focuses on interior design consulting, training, and professional certification.",
     image:
-      "https://res.cloudinary.com/dd6dnskfg/image/upload/v1785497020/glass_front_fvn62r.jpg",
+      "https://res.cloudinary.com/dd6dnskfg/image/upload/v1786357983/zica1_bkivf5.jpg",
     link: "/zica",
   },
   {
@@ -16,7 +16,7 @@ const businesses = [
     description:
       "Specializing in glass and aluminum-related construction solutions.",
     image:
-      "https://res.cloudinary.com/dd6dnskfg/image/upload/v1785498970/Discussion_Photos_-_Download_Free_High-Quality_Pictures___Freepik_uxuuh8.jpg",
+      "https://res.cloudinary.com/dd6dnskfg/image/upload/v1785497168/download_18_oiycls.jpg",
     link: "/zoom-glass",
   },
   {
@@ -42,7 +42,7 @@ export default function Businesses() {
           className="mx-auto mb-16 max-w-3xl text-center"
         >
           <span className="font-semibold uppercase tracking-[4px] text-red-600">
-            Our Businesses
+            Our Services
           </span>
 
           <h2 className="mt-4 text-4xl font-bold text-slate-900 md:text-5xl">
