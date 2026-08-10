@@ -14,7 +14,7 @@ export default function AboutZica() {
           viewport={{ once: true, amount: 0.3 }}
         >
           <img
-            src="https://res.cloudinary.com/dd6dnskfg/image/upload/v1785498970/Discussion_Photos_-_Download_Free_High-Quality_Pictures___Freepik_uxuuh8.jpg"
+            src="https://res.cloudinary.com/dd6dnskfg/image/upload/v1786357983/zica1_bkivf5.jpg"
             alt="Interior design consultation"
             className="h-[520px] w-full rounded-3xl object-cover shadow-2xl"
           />
@@ -36,16 +36,15 @@ export default function AboutZica() {
           </h2>
 
           <p className="mt-7 text-lg leading-8 text-gray-600">
-            Zoom Interior Consult & Academy combines professional interior
-            design consulting with practical education, helping individuals
-            and organizations create beautiful, functional, and purposeful
-            spaces.
+            Zoom Interior Consult and Academy is a dynamic firm dedicated to excellence in interior design projects and professional development.
           </p>
 
           <p className="mt-5 text-lg leading-8 text-gray-600">
-            Through our academy, aspiring and practicing designers gain
-            practical knowledge, creative skills, and industry-focused
-            experience that can be applied to real-world projects.
+            We deliver innovative interior design solutions tailored to our clients unique needs while also empoering aspiring designers through specialized training programs.
+          </p>
+
+          <p className="mt-5 text-lg leading-8 text-gray-600">
+            Our academy provides internationally recognized certification, equipping trainees with the skills, knowledge, and credentials to thrive in the global design industry.
           </p>
 
           <div className="mt-8 grid grid-cols-2 gap-5">

@@ -5,11 +5,13 @@ import OurApproach from '../components/aboutComponents/OurApproach'
 import OurImpact from '../components/aboutComponents/OurImpact'
 import AboutCTA from '../components/aboutComponents/AboutCTA'
 import WhatWeDo from '../components/aboutComponents/WhatWeDo'
+import Overview from '../components/Overview'
 
 function About() {
   return (
     <div>
       <AboutHero />
+      <Overview />
       <WhyChooseUs />
       <WhatWeDo />
       <OurImpact />
