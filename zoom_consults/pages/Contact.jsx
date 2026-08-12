@@ -10,10 +10,20 @@ import {
 
 const contactItems = [
   {
+    icon: FaLocationDot,
+    title: "Head Office",
+    text: "85 Allen Avenue, Ikeja, Lagos, Nigeria",
+  },
+  {
+    icon: FaClock,
+    title: "Working Hours",
+    text: "Monday - Friday, 8:00 AM - 5:00 PM",
+  },
+  {
     icon: FaPhone,
     title: "Call Us",
-    text: "+234 XXX XXX XXXX",
-    link: "tel:+2340000000000",
+    text: "+234 908 030 0064, +234 908 030 0065",
+    link: "tel:+2349080300064",
   },
   {
     icon: FaEnvelope,
@@ -21,16 +31,7 @@ const contactItems = [
     text: "info@zoomconsults.com",
     link: "mailto:info@zoomconsults.com",
   },
-  {
-    icon: FaLocationDot,
-    title: "Our Office",
-    text: "Lagos, Nigeria",
-  },
-  {
-    icon: FaClock,
-    title: "Working Hours",
-    text: "Monday - Friday, 8:00 AM - 5:00 PM",
-  },
+  
 ];
 
 const faqs = [
@@ -340,7 +341,7 @@ export default function Contact() {
                 <div>
                   <h3 className="font-bold">Zoom Consults</h3>
 
-                  <p className="mt-1 text-gray-400">Lagos, Nigeria</p>
+                  <p className="mt-1 text-gray-400">85 Allen Avenue, Ikeja, Lagos, Nigeria</p>
                 </div>
               </div>
             </div>
@@ -349,7 +350,7 @@ export default function Contact() {
             <div className="min-h-[400px] bg-gray-200">
               <iframe
                 title="Zoom Consults Location"
-                src="https://www.google.com/maps?q=Lagos,Nigeria&output=embed"
+                src="https://www.google.com/maps/place/85+Allen+Ave,+Allen,+Ikeja+101233,+Lagos/@6.6040266,3.3463529,16.16z/data=!4m6!3m5!1s0x103b923191a518ed:0x82b57920d9566f6d!8m2!3d6.6037372!4d3.3505842!16s%2Fg%2F11dyrcdkfy?entry=ttu&g_ep=EgoyMDI2MDgwOS4wIKXMDSoASAFQAw%3D%3D"
                 className="h-full min-h-[400px] w-full border-0"
                 loading="lazy"
               />
