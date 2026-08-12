@@ -1,14 +1,9 @@
-
 import { motion } from "framer-motion";
 
 export default function ZicaAcademy() {
   return (
-    <section
-      id="academy"
-      className="overflow-hidden bg-white py-24"
-    >
+    <section id="academy" className="overflow-hidden bg-white py-24">
       <div className="mx-auto grid w-[90%] max-w-7xl items-center gap-16 lg:grid-cols-2">
-
         <motion.div
           initial={{ opacity: 0, x: -80 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -24,11 +19,16 @@ export default function ZicaAcademy() {
           </h2>
 
           <p className="mt-7 text-lg leading-8 text-gray-600">
-            Zoom Interior Consult and Academy provides specialized interior design training with pathways to internationally recognized certification. we equip aspiring designers with the knowledge, skills and credantials needed to succeed in the global design industry.
+            Zoom Interior Consult and Academy provides specialized interior
+            design training with pathways to internationally recognized
+            certification. we equip aspiring designers with the knowledge,
+            skills and credantials needed to succeed in the global design
+            industry.
           </p>
 
           <h3 className="mt-7 text-2xl font-bold leading-8 text-gray-600">
-            We offer a full range of interior design taining and our modules cover:
+            We offer a full range of interior design taining and our modules
+            cover:
           </h3>
 
           <div className="mt-8 space-y-4">
@@ -45,10 +45,29 @@ export default function ZicaAcademy() {
               "Project Management",
               "Business Practices",
             ].map((item) => (
-              <div
-                key={item}
-                className="flex items-center gap-3 text-gray-700"
-              >
+              <div key={item} className="flex items-center gap-3 text-gray-700">
+                <span className="flex h-6 w-6 items-center justify-center rounded-full bg-red-700 text-xs text-white">
+                  ✓
+                </span>
+
+                {item}
+              </div>
+            ))}
+          </div>
+          <h3 className="mt-7 text-2xl font-bold capitalize leading-8 text-gray-600">
+            Our training methodology includes:
+          </h3>
+          <div className="mt-8 space-y-4">
+            {[
+              "Theoretical Learning",
+              "Practical Sessions",
+              "Case Studies",
+              "Assignments",
+              "Market Surveys",
+              "Group Work",
+              "Real-Life Projects",
+            ].map((item) => (
+              <div key={item} className="flex items-center gap-3 text-gray-700">
                 <span className="flex h-6 w-6 items-center justify-center rounded-full bg-red-700 text-xs text-white">
                   ✓
                 </span>
@@ -72,6 +91,7 @@ export default function ZicaAcademy() {
           />
         </motion.div>
 
+        
       </div>
     </section>
   );

@@ -84,7 +84,7 @@ export default function ZicaHero() {
               to="/contact"
               className="inline-flex items-center justify-center gap-3 rounded-full bg-red-700 px-8 py-4 font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:bg-red-800"
             >
-              Book a Consultation
+              Enroll Now
               <FaArrowRight />
             </Link>
 
