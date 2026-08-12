@@ -350,10 +350,11 @@ export default function Contact() {
             <div className="min-h-[400px] bg-gray-200">
               <iframe
                 title="Zoom Consults Location"
-                src="https://www.google.com/maps/place/85+Allen+Ave,+Allen,+Ikeja+101233,+Lagos/@6.6040266,3.3463529,16.16z/data=!4m6!3m5!1s0x103b923191a518ed:0x82b57920d9566f6d!8m2!3d6.6037372!4d3.3505842!16s%2Fg%2F11dyrcdkfy?entry=ttu&g_ep=EgoyMDI2MDgwOS4wIKXMDSoASAFQAw%3D%3D"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7117.382995943323!2d3.34635289547425!3d6.604026648495774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b923191a518ed%3A0x82b57920d9566f6d!2s85%20Allen%20Ave%2C%20Allen%2C%20Ikeja%20101233%2C%20Lagos!5e0!3m2!1sen!2sng!4v1786552014408!5m2!1sen!2sng"
                 className="h-full min-h-[400px] w-full border-0"
                 loading="lazy"
               />
+              {/* https://www.google.com/maps/place/85+Allen+Ave,+Allen,+Ikeja+101233,+Lagos/@6.6040266,3.3463529,16.16z/data=!4m6!3m5!1s0x103b923191a518ed:0x82b57920d9566f6d!8m2!3d6.6037372!4d3.3505842!16s%2Fg%2F11dyrcdkfy?entry=ttu&g_ep=EgoyMDI2MDgwOS4wIKXMDSoASAFQAw%3D%3D */}
             </div>
           </div>
         </div>
